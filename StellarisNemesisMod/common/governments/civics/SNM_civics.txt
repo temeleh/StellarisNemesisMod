@@ -1,0 +1,17 @@
+civic_SNM_HIVEPOWER={
+	potential = { authority = { value = auth_hive_mind } }
+	random_weight = { base = 5 }
+	possible={
+
+	}
+	modifier = {
+		country_minerals_produces_mult = 1
+		country_energy_produces_mult = 1
+		country_unity_produces_mult = 1
+		country_naval_cap_mult = 1.5
+		ships_upkeep_mult = -0.50
+        	ship_weapon_damage = 1
+		ship_fire_rate_mult = 1
+	}
+
+}
