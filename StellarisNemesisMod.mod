@@ -5,4 +5,4 @@ tags={
 }
 name="StellarisNemesisMod"
 supported_version="2.8.1"
-path=""
+path="mod/StellarisNemesisMod"
