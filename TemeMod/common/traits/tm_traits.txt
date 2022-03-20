@@ -1,0 +1,10 @@
+trait_optest = {
+	cost = 0
+    allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		planet_jobs_produces_mult = 0.15
+		planet_pops_robotics_upkeep_mult = -0.15
+		planet_pop_assembly_mult = 0.15
+	}
+}
