@@ -1,7 +1,9 @@
 ﻿l_english:
   trait_GigaBrain:0 "Gigabrain"
   trait_GigaBrain_desc:0 "lorem ipsum."
-  trait_guided_evolution:0 "Guided evolution"
-  trait_guided_evolution_desc:0 "lorem ipsum."
   civic_established_admiralty:0 "established Admiralty"
   civic_established_admiralty_desc:0 "This empire holds a long tradition of of specialized warfare."
+
+ 
+trait_temetrait: "temetrait"
+trait_temetrait_desc: "temetrait"
