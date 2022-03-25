@@ -5,7 +5,7 @@
   trait_giga_slaver_desc:0 "One is only truly free when they have only one choice"
   civic_established_admiralty:0 "established Admiralty"
   civic_established_admiralty_desc:0 "This empire holds a long tradition of of specialized warfare."
-
- 
+  trait_guided_evolution:0 "Guided evolution"
+  trait_guided_evolution_desc:0 "lorem ipsum."
   trait_temetrait: "temetrait"
   trait_temetrait_desc: "temetrait"
