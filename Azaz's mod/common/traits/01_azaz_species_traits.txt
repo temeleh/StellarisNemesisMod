@@ -20,7 +20,10 @@ trait_guided_evolution  = {
 	potential_crossbreeding_chance = 1.0
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	modifier = {
-		planet_miners_alloys_produces_add=14
+		planet_miners_alloys_produces_add=11
+		planet_miners_engineering_research_produces_add=1
+		planet_miners_society_research_produces_add=1
+		planet_miners_physics_research_produces_add=1
 		#planet_jobs_engineering_research_produces_mult = 1
 		#planet_jobs_physics_research_produces_mult = 1
 		#planet_jobs_society_research_produces_mult = 1
@@ -29,14 +32,12 @@ trait_guided_evolution  = {
 	}
 }
 
-trait_giga_slaver  = {
-	cost = 9
+trait_efficient  = {
+	cost = 10
 	potential_crossbreeding_chance = 1.0
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	modifier = {
-		planet_jobs_slave_produces_mult = 1.0
-		planet_miners_consumer_goods_produces_add = 4
-		planet_jobs_specialist_produces_mult = 0.2
+		planet_jobs_produces_mult = 2
 
 	}
 }
@@ -61,6 +62,20 @@ trait_temetrait = {
         pop_environment_tolerance = 0.1
         species_empire_size_mult = -0.2
         pop_housing_usage_mult = -0.1
+	}
+}
+
+trait_crimson_binding = {
+	cost = 10
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_priests_sr_dark_matter_produces_add = 2
+		planet_jobs_consumer_goods_upkeep_mult = -0.4
+		planet_priests_society_research_produces_add = 4
+		planet_miners_engineering_research_produces_add = 4
+		planet_technician_physics_research_produces_add = 4
+		planet_priests_unity_produces_add = 2
 	}
 }
 
