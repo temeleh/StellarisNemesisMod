@@ -29,14 +29,12 @@ trait_guided_evolution  = {
 	}
 }
 
-trait_giga_slaver  = {
-	cost = 9
+trait_efficient  = {
+	cost = 10
 	potential_crossbreeding_chance = 1.0
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	modifier = {
-		planet_jobs_slave_produces_mult = 1.0
-		planet_miners_consumer_goods_produces_add = 4
-		planet_jobs_specialist_produces_mult = 0.2
+		planet_jobs_produces_mult = 2
 
 	}
 }
