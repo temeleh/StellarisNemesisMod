@@ -1,13 +1,29 @@
 trait_GigaBrain = {
-	cost = 2
+	cost = 10
 	potential_crossbreeding_chance = 1.0
 	opposites = { "trait_nerve_stapled" "trait_erudite" "trait_enigmatic_intelligence_poor" }
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	modifier = {
-		planet_jobs_engineering_research_produces_mult = 1
-		planet_jobs_physics_research_produces_mult = 1
-		planet_jobs_society_research_produces_mult = 1
-		leader_skill_levels = 10
-		species_leader_exp_gain = 10
+		planet_jobs_produces_mult = 2
+		#planet_jobs_engineering_research_produces_mult = 1
+		#planet_jobs_physics_research_produces_mult = 1
+		#planet_jobs_society_research_produces_mult = 1
+		#leader_skill_levels = 10
+		#species_leader_exp_gain = 10
+	}
+}
+
+trait_guided_evolution  = {
+	cost = 7
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_nerve_stapled" "trait_erudite" "trait_enigmatic_intelligence_poor" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_livestock_food_produces_add = 14
+		#planet_jobs_engineering_research_produces_mult = 1
+		#planet_jobs_physics_research_produces_mult = 1
+		#planet_jobs_society_research_produces_mult = 1
+		#leader_skill_levels = 10
+		#species_leader_exp_gain = 10
 	}
 }
