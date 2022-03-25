@@ -63,3 +63,17 @@ trait_temetrait = {
 	}
 }
 
+trait_crimson_binding = {
+	cost = 10
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_priests_sr_dark_matter_produces_add = 2
+		planet_jobs_consumer_goods_upkeep_mult = -0.4
+		planet_priests_society_research_produces_add = 4
+		planet_miners_engineering_research_produces_add = 4
+		planet_technician_physics_research_produces_add = 4
+		planet_priests_unity_produces_add = 2
+	}
+}
+
