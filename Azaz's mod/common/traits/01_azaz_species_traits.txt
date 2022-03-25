@@ -18,7 +18,6 @@ trait_GigaBrain = {
 trait_guided_evolution  = {
 	cost = 7
 	potential_crossbreeding_chance = 1.0
-	opposites = { "trait_nerve_stapled" "trait_erudite" "trait_enigmatic_intelligence_poor" }
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	modifier = {
 		planet_miners_alloys_produces_add=14
